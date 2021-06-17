@@ -20,5 +20,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Coffee.class));
             }
         });
+
+        View counter = findViewById(R.id.button);
+        counter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, HowMany.class));
+            }
+        });
     }
 }
