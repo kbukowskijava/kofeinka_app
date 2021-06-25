@@ -1,4 +1,17 @@
 <resources>
-    <string name="app_name">kofeinka</string>
-    <string name="ciekawostki">Ciekawostki</string>
+    <string name="app_name">kofeina</string>
+
+    <string name="rodzaje_kaw">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor nisi eu dui tincidunt, quis pellentesque libero porta. Phasellus eget maximus urna. Quisque vestibulum porttitor nunc, sit amet porta sapien gravida sit amet. Etiam mollis lacus tortor, nec ullamcorper odio imperdiet in. Sed aliquam enim erat, at cursus sapien aliquam eget. Ut pellentesque suscipit sem nec congue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut at risus malesuada, aliquam arcu id, laoreet sem. Cras dictum dignissim sodales. Duis tempor ultricies ligula, ornare mollis mi tristique et. Mauris porta orci non nisi porta faucibus.
+
+    In ac fermentum odio. Pellentesque egestas a ipsum id imperdiet. Nulla nec lorem vitae metus porttitor molestie. Pellentesque scelerisque erat quis augue auctor, vel feugiat urna tristique. Nullam venenatis orci id quam efficitur, ac elementum nunc vulputate. Vivamus malesuada viverra pulvinar. Proin et lectus nec tellus tincidunt interdum vel at eros. Phasellus bibendum lacus eros, eu vehicula nisi hendrerit dapibus. Nulla rhoncus neque eros, sed sodales felis volutpat nec. Proin mollis tellus vel lacus tincidunt commodo. Proin vehicula congue elementum.
+
+    Vestibulum ut nunc arcu. Maecenas non mi at metus vulputate consequat nec eget augue. Cras ut metus id erat viverra commodo. Fusce quis metus in nibh facilisis porttitor. Duis vel pulvinar magna. Etiam nec faucibus nunc, sed sagittis ex. Quisque sit amet orci ac odio lobortis pretium ac ut sem. Ut sed velit turpis. Ut in convallis velit, at pretium ante. Etiam venenatis tristique ligula sollicitudin condimentum. Sed commodo venenatis quam sit amet vehicula. Nunc fermentum fringilla urna vel vulputate. Sed a molestie dolor. Cras sed magna vel lectus ultricies porta et id magna.
+
+    Donec tincidunt aliquet mi, eget lobortis tellus porta a. Donec facilisis molestie ex id vulputate. Nullam id ante libero. Proin a finibus felis, id sodales nisl. Mauris volutpat nulla in imperdiet imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec convallis eros vel tellus finibus cursus. Curabitur lacinia neque vel urna aliquam facilisis. Vestibulum consequat nulla nibh, id pellentesque arcu lacinia ut.
+
+    Aliquam laoreet porta leo. In quis sagittis ligula. Donec tincidunt pellentesque eros, vel commodo metus dapibus ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ullamcorper in nulla quis viverra. Vestibulum sem nibh, vestibulum nec mi ut, vestibulum sodales dui. Nunc hendrerit, ex gravida dictum tincidunt, dui justo consectetur elit, eu porttitor tellus magna nec arcu. Duis ante erat, fermentum vitae lacus et, vulputate facilisis ipsum.
+    </string>
+
+
 </resources>

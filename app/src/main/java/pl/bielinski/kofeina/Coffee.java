@@ -10,6 +10,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
+import pl.bielinski.kofeina.coffee.KafelekCoffeeAkcesoria;
+import pl.bielinski.kofeina.coffee.KafelekCoffeePrzygotowanie;
+import pl.bielinski.kofeina.coffee.KafelekCoffeeRodzaje;
+import pl.bielinski.kofeina.coffee.KafelekCoffeeSlowniczek;
+import pl.bielinski.kofeina.coffee.KafelekCoffeeZdrowie;
+
 public class Coffee extends AppCompatActivity implements View.OnClickListener {
 
     public CardView card1;
@@ -18,7 +24,6 @@ public class Coffee extends AppCompatActivity implements View.OnClickListener {
     public CardView card4;
     public CardView card5;
     public CardView card6;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,12 +34,12 @@ public class Coffee extends AppCompatActivity implements View.OnClickListener {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        card1 = (CardView) findViewById(R.id.cardView1);
-        card2 = (CardView) findViewById(R.id.cardView2);
-        card3 = (CardView) findViewById(R.id.cardView3);
-        card4 = (CardView) findViewById(R.id.cardView4);
-        card5 = (CardView) findViewById(R.id.cardView5);
-        card6 = (CardView) findViewById(R.id.cardView6);
+        card1 = (CardView) findViewById(R.id.cardViewRodzaje);
+        card2 = (CardView) findViewById(R.id.cardViewZdrowie);
+        card3 = (CardView) findViewById(R.id.cardViewPrzygotowanie);
+        card4 = (CardView) findViewById(R.id.cardViewAkcesoria);
+        card5 = (CardView) findViewById(R.id.cardViewSlowniczek);
+        card6 = (CardView) findViewById(R.id.cardViewLicznik);
 
         card1.setOnClickListener(this);
         card2.setOnClickListener(this);
@@ -50,28 +55,28 @@ public class Coffee extends AppCompatActivity implements View.OnClickListener {
         Intent intent;
 
         switch (v.getId()) {
-            case R.id.cardView1:
-                intent = new Intent(this,KafelekCoffee.class);
+            case R.id.cardViewRodzaje:
+                intent = new Intent(this, KafelekCoffeeRodzaje.class);
                 startActivity(intent);
                 break;
-            case R.id.cardView2:
-                intent = new Intent(this,KafelekCoffee.class);
+            case R.id.cardViewZdrowie:
+                intent = new Intent(this, KafelekCoffeeZdrowie.class);
                 startActivity(intent);
                 break;
-            case R.id.cardView3:
-                intent = new Intent(this,KafelekCoffee.class);
+            case R.id.cardViewPrzygotowanie:
+                intent = new Intent(this, KafelekCoffeePrzygotowanie.class);
                 startActivity(intent);
                 break;
-            case R.id.cardView4:
-                intent = new Intent(this,KafelekCoffee.class);
+            case R.id.cardViewAkcesoria:
+                intent = new Intent(this, KafelekCoffeeAkcesoria.class);
                 startActivity(intent);
                 break;
-            case R.id.cardView5:
-                intent = new Intent(this,KafelekCoffee.class);
+            case R.id.cardViewSlowniczek:
+                intent = new Intent(this, KafelekCoffeeSlowniczek.class);
                 startActivity(intent);
                 break;
-            case R.id.cardView6:
-                intent = new Intent(this,KafelekCoffee.class);
+            case R.id.cardViewLicznik:
+                intent = new Intent(this, Licznik.class);
                 startActivity(intent);
                 break;
         }
