@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        View counter = findViewById(R.id.button);
-        counter.setOnClickListener(new View.OnClickListener() {
+        View energy = findViewById(R.id.button_energy);
+        energy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, HowMany.class));
+                startActivity(new Intent(MainActivity.this, EnergyDrink.class));
             }
         });
     }

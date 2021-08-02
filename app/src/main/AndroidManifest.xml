@@ -9,10 +9,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kofeina">
-        <activity android:name=".HowMany"></activity>
+        <activity android:name=".Licznik"></activity>
+        <activity android:name=".yerba.KafelekYerbaAkcesoria" />
+        <activity
+            android:name=".energy.KafelekEnergyAlko"
+            android:label="Łączenie z alkocholem" />
+        <activity
+            android:name=".energy.KafelekEnergyLicznik"
+            android:label="Licznik kofeiny" />
+        <activity
+            android:name=".energy.KafelekEnergyHistoria"
+            android:label="Historia" />
+        <activity
+            android:name=".energy.KafelekEnergyDystrybucja"
+            android:label="Sposoby dystrybucji" />
+        <activity
+            android:name=".energy.KafelekEnergyPrzeciwwskazania"
+            android:label="Przeciwskazania spożycia" />
+        <activity
+            android:name=".energy.KafelekEnergyMarki"
+            android:label="Marki napoi energetycznych" />
+        <activity
+            android:name=".coffee.KafelekCoffeeLicznik"
+            android:label="Licznik kofeiny" />
+        <activity
+            android:name=".coffee.KafelekCoffeeSlowniczek"
+            android:label="Słowniczek nazw" />
+        <activity
+            android:name=".coffee.KafelekCoffeeAkcesoria"
+            android:label="Akcesoria do parzenia kawy" />
+        <activity
+            android:name=".coffee.KafelekCoffeePrzygotowanie"
+            android:label="Sposoby przygotowania" />
+        <activity
+            android:name=".coffee.KafelekCoffeeZdrowie"
+            android:label="Właściwości zdrowotne" />
+        <activity
+            android:name=".coffee.KafelekCoffeeRodzaje"
+            android:label="Rodzaje kaw" />
         <activity android:name=".YerbaMate" />
         <activity android:name=".EnergyDrink" />
-        <activity android:name=".KafelekCoffee" />
         <activity android:name=".Coffee" />
         <activity android:name=".MainActivity">
             <intent-filter>
