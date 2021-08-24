@@ -9,6 +9,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 
 import pl.bielinski.kofeina.energy.KafelekEnergyAlko;
 import pl.bielinski.kofeina.energy.KafelekEnergyDystrybucja;
@@ -25,6 +29,7 @@ public class EnergyDrink extends AppCompatActivity implements View.OnClickListen
     public CardView card5;
     public CardView card6;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +41,7 @@ public class EnergyDrink extends AppCompatActivity implements View.OnClickListen
 
         card1 = (CardView) findViewById(R.id.cardViewMarki);
         card2 = (CardView) findViewById(R.id.cardViewDystrybucja);
-        card3 = (CardView) findViewById(R.id.cardViewPrzeciwwskazania);
+        card3 = (CardView) findViewById(R.id.cardViewPrzciwwskazania);
         card4 = (CardView) findViewById(R.id.cardViewHistoria);
         card5 = (CardView) findViewById(R.id.cardViewAlko);
         card6 = (CardView) findViewById(R.id.cardViewLicznik);
@@ -63,7 +68,7 @@ public class EnergyDrink extends AppCompatActivity implements View.OnClickListen
                 intent = new Intent(this, KafelekEnergyDystrybucja.class);
                 startActivity(intent);
                 break;
-            case R.id.cardViewPrzeciwwskazania:
+            case R.id.cardViewPrzciwwskazania:
                 intent = new Intent(this, KafelekEnergyPrzeciwwskazania.class);
                 startActivity(intent);
                 break;

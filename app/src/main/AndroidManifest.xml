@@ -9,14 +9,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kofeina">
-        <activity android:name=".Licznik"></activity>
-        <activity android:name=".yerba.KafelekYerbaAkcesoria" />
+        <activity
+            android:name=".tabletki.KafelekTabletkiDystrybucja"
+            android:exported="true"
+            android:label="Dystrybucja"/>
+        <activity
+            android:name=".YerbaMate"
+            android:label="Yerba Mate" />
+        <activity
+            android:name=".yerba.KafelekYerbaZdrowie"
+            android:label="Właściwości zdrowotne" />
+        <activity
+            android:name=".yerba.KafelekYerbaPrzygotowanie"
+            android:label="Sposoby przygotowania" />
+        <activity
+            android:name=".yerba.KafelekYerbaRodzaje"
+            android:label="Rodzaje" />
+        <activity
+            android:name=".yerba.KafelekYerbaHistoria"
+            android:label="Historia" />
+        <activity
+            android:name=".yerba.KafelekYerbaAkcesoria"
+            android:label="Akcesoria" />
+        <activity
+            android:name=".Tabletki"
+            android:label="Suplementy" />
+        <activity
+            android:name=".tabletki.KafelekTabletkiHistoria"
+            android:label="Opis i historia" />
+        <activity
+            android:name=".tabletki.KafelekTabletkiSkutki"
+            android:label="Skutki uboczne" />
+        <activity
+            android:name=".tabletki.KafelekTabletkiZalety"
+            android:label="Zalety" />
+        <activity
+            android:name=".tabletki.KafelekTabletkiMarki"
+            android:label="Marki" />
+        <activity
+            android:name=".EnergyDrink"
+            android:label="Napoje energetyczne" />
         <activity
             android:name=".energy.KafelekEnergyAlko"
             android:label="Łączenie z alkocholem" />
-        <activity
-            android:name=".energy.KafelekEnergyLicznik"
-            android:label="Licznik kofeiny" />
         <activity
             android:name=".energy.KafelekEnergyHistoria"
             android:label="Historia" />
@@ -30,8 +65,8 @@
             android:name=".energy.KafelekEnergyMarki"
             android:label="Marki napoi energetycznych" />
         <activity
-            android:name=".coffee.KafelekCoffeeLicznik"
-            android:label="Licznik kofeiny" />
+            android:name=".Coffee"
+            android:label="Kawa" />
         <activity
             android:name=".coffee.KafelekCoffeeSlowniczek"
             android:label="Słowniczek nazw" />
@@ -47,10 +82,15 @@
         <activity
             android:name=".coffee.KafelekCoffeeRodzaje"
             android:label="Rodzaje kaw" />
-        <activity android:name=".YerbaMate" />
-        <activity android:name=".EnergyDrink" />
-        <activity android:name=".Coffee" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".AboutProgramActivity"
+            android:label="O programie" />
+        <activity
+            android:name=".Licznik"
+            android:label="Licznik kofeiny" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Kofeinka">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

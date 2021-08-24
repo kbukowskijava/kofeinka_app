@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/drawable/button.xml" value="0.3828125" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_about_program.xml" value="0.25" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_coffee.xml" value="0.33" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_energy_drink.xml" value="0.33" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_coffee_akcesoria.xml" value="0.17831813576494426" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_coffee_przygotowanie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_coffee_rodzaje.xml" value="0.17831813576494426" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_coffee_slowniczek.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_coffee_zdrowie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_energy_alko.xml" value="0.17831813576494426" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_energy_dystrybucja.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_energy_historia.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_energy_marki.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_energy_przeciwwskazania.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_tabletki_dystrybucja.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_tabletki_historia.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_tabletki_marki.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_tabletki_skutki.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_tabletki_zalety.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_yerba_akcesoria.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_yerba_historia.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_yerba_przygotowanie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_yerba_rodzaje.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_kafelek_yerba_zdrowie.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_tabletki.xml" value="0.33" />
+        <entry key="..\:/Android_Projekty/Kofeina/app/src/main/res/layout/activity_yerba_mate.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
